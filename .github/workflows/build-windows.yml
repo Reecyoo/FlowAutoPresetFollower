@@ -1,6 +1,12 @@
-Windows VST3jobs:
-  build:
-    runs-on: windows-latest
+name: Build Windows VST3
+
+on:
+  push:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  runs-on: windows-latest
 
     steps:
       - name: Checkout Repository
@@ -9,9 +15,8 @@ Windows VST3jobs:
       - name: Clone JUCE
         run: git clone --depth 1 https://github.com/juce-framework/JUCE.git C:/JUCE
 
-      -CMake" -A x64 `
-            -DCMAKE_BUILD_TYPE=Release `
-            -DCMAKE_PREFIX_PATH="C:/JUCE"
+      - name: Configure CMake
+        run: cmake -B build -G "Visual Studio 17 2022" -A x64 -DCMAKE_BUILD_TYPE=Release
 
       - name: Build VST3
         run: cmake --build build --config Release --target FlowAutoPresetFollower_VST3
