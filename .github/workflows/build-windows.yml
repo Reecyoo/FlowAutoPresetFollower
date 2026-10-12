@@ -1,7 +1,8 @@
 name: Build Windows VST3
 
 on:
-branches: [ main, master ]
+  push:
+    branches: [ main, master ]
   workflow_dispatch:
 
 jobs:
@@ -21,6 +22,8 @@ jobs:
       - name: Build VST3
         run: cmake --build build --config Release --target FlowAutoPresetFollower_VST3
 
-      -Windows VST3 Artifact
+      - name: Upload Windows VST3 Artifact
+        uses: actions/upload-artifact@v4
+        with:
           name: FlowAutoPresetFollower-Windows-VST3
           path: build/FlowAutoPresetFollower_artefacts/Release/VST3/
