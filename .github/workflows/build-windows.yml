@@ -1,0 +1,23 @@
+Windows VST3jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Clone JUCE
+        run: git clone --depth 1 https://github.com/juce-framework/JUCE.git C:/JUCE
+
+      -CMake" -A x64 `
+            -DCMAKE_BUILD_TYPE=Release `
+            -DCMAKE_PREFIX_PATH="C:/JUCE"
+
+      - name: Build VST3
+        run: cmake --build build --config Release --target FlowAutoPresetFollower_VST3
+
+      - name: Upload Windows VST3 Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: FlowAutoPresetFollower-Windows-VST3
+          path: build/FlowAutoPresetFollower_artefacts/Release/VST3/

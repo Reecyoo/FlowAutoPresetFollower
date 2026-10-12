@@ -1,0 +1,3 @@
+/workspaces/FlowAutoPresetFollower/build/vst3_helpers/FlowAutoPresetFollower/CMakeFiles/vst3_helper.dir
+/workspaces/FlowAutoPresetFollower/build/vst3_helpers/FlowAutoPresetFollower/CMakeFiles/edit_cache.dir
+/workspaces/FlowAutoPresetFollower/build/vst3_helpers/FlowAutoPresetFollower/CMakeFiles/rebuild_cache.dir

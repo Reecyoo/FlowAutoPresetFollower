@@ -1,0 +1,27 @@
+# ninja log v5
+2	69	0	/workspaces/FlowAutoPresetFollower/build/JUCE/tools/CMakeFiles/cmake.verify_globs	ff4a7482ff3ceedd
+69	7057	1791821034852074091	extras/Build/juceaide/CMakeFiles/juceaide.dir/Main.cpp.o	380320c9e28c97b0
+70	7838	1791821035632074060	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/juce_build_tools/juce_build_tools.cpp.o	4100939cee29ab6f
+7838	9270	1791821037068074005	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_graphics/juce_graphics_Sheenbidi.c.o	8f4c2449007fb020
+9271	10725	1791821038525073948	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_graphics/juce_graphics_libjpg_1.c.o	a91b43e1556ea1a4
+10727	11353	1791821039154073924	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_graphics/juce_graphics_libjpg_2.c.o	c2c879b4c9780471
+11355	12331	1791821040132073886	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_graphics/juce_graphics_libjpg_3.c.o	aa06a9d85ce20c61
+12334	15378	1791821043177073768	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_graphics/juce_graphics_libpng.c.o	9b505b6436e09829
+15381	16435	1791821044235073728	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_graphics/juce_graphics_libwebp_dec.c.o	59eb45c245c72b82
+16438	18534	1791821046334073646	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_graphics/juce_graphics_libwebp_dsp_dec.c.o	5f538098bd465250
+18536	19680	1791821047477073602	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_graphics/juce_graphics_libwebp_dsp_dec_avx2.c.o	bd6f842148278998
+19684	20274	1791821048073073579	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_graphics/juce_graphics_libwebp_dsp_dec_sse41.c.o	5e78d781dbd08a79
+20276	21101	1791821048901073547	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_graphics/juce_graphics_libwebp_dsp_enc.c.o	206f8d3f2d629737
+21102	22112	1791821049910073508	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_graphics/juce_graphics_libwebp_dsp_enc_avx2.c.o	fd33952ad5f37709
+22113	22511	1791821050310073492	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_graphics/juce_graphics_libwebp_dsp_enc_sse41.c.o	a93a705d870568b4
+22512	24460	1791821052258073417	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_graphics/juce_graphics_libwebp_enc.c.o	d832d086b7a9d495
+24462	25040	1791821052841073395	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_graphics/juce_graphics_libwebp_sharpyuv.c.o	b317134e72ca8109
+25042	25467	1791821053267073378	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_graphics/juce_graphics_libwebp_utils.c.o	c13edb60e3a53876
+25468	29517	1791821057314073221	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_graphics/juce_graphics_lunasvg.c.o	c2edecd481327c46
+29520	38562	1791821066339072872	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_events/juce_events.cpp.o	cec5936051f92fe4
+7074	55034	1791821082785072236	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o	af42389af46bfd
+55042	55067	1791821082868072233	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_core/juce_core_CompilationTime.cpp.o	65875f9cc562b58a
+72	55207	1791821082862072233	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_graphics/juce_graphics.cpp.o	a09340ea4d4c7e7c
+55068	55706	1791821083506072208	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_core/juce_core_zlib.c.o	cdfce9b264fad9b2
+38566	55741	1791821083519072208	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_core/juce_core.cpp.o	433c6b60cb63df60
+55746	56824	1791821084607072165	extras/Build/juceaide/juceaide_artefacts/Custom/juceaide	10f6d35629af6b57
